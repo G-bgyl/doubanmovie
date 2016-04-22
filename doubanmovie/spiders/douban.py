@@ -34,7 +34,7 @@ class doubanSpider(CrawlSpider):
                 # 变成str
                 movieurl = movieurl[0]
                 yield Request(movieurl, callback=self.parse_info)
-        # 抓取下一页
+        # 抓取下一页，去掉这部分的注释，一次性抓取250个（其中有部分失效了，实际是245个）
 #        nextLink = selector.xpath('//span[@class="next"]/link/@href').extract()
 #        if nextLink:
 #            nextLink = nextLink[0]
