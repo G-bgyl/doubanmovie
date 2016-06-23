@@ -18,5 +18,11 @@ class DoubanmovieItem(scrapy.Item):
     mov_language = scrapy.Field()
     mov_length = scrapy.Field()
     mov_introducton = scrapy.Field()
+
+    rank = scrapy.Field()
+    mov_score = scrapy.Field()
+    mov_trailor = scrapy.Field()
+    mov_image = scrapy.Field()
+    mov_pics = scrapy.Field()
     pass
 

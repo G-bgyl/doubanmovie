@@ -75,6 +75,7 @@ COOKIES_ENABLED=False
 #    'scrapy.telnet.TelnetConsole': None,
 #}
 
+
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
